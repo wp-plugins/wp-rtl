@@ -3,8 +3,8 @@ Contributors: fduraibi
 Donate link:
 Tags: rtl, ltr, wysiwyg, formatting, tinymce, write, edit, post
 Requires at least: 2.6
-Tested up to: 2.7.1
-Stable tag: 0.1
+Tested up to: 2.8 beta1
+Stable tag: 0.2
 
 Adds two buttons to the TinyMCE editor to enable writing text in Left to Right (LTR) and Right to Left (RTL) directions.
 
@@ -22,3 +22,8 @@ This plugin enables the text directions functionality that exist already in the 
 
 1. The visual TinyMCE editor showing the two added buttons and some lines in LTR and RTL directions.
 2. The HTML code with the tags to select the direction [dir="rtl" and dir="ltr"].
+
+== Changelog ==
+
+* 0.2 Fixed compatibility issue with wordpress 2.8_beta1
+* 0.1 First release
