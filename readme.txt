@@ -25,5 +25,5 @@ This plugin enables the text directions functionality that exist already in the 
 
 == Changelog ==
 
-* 0.2 Fixed compatibility issue with wordpress 2.8_beta1
+* 0.2 Fixed compatibility issue with wordpress 2.8
 * 0.1 First release
