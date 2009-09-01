@@ -3,7 +3,7 @@ Contributors: fduraibi
 Donate link:
 Tags: rtl, ltr, wysiwyg, formatting, tinymce, write, edit, post
 Requires at least: 2.6
-Tested up to: 2.8.1
+Tested up to: 2.8.4
 Stable tag: 0.2
 
 Adds two buttons to the TinyMCE editor to enable writing text in Left to Right (LTR) and Right to Left (RTL) directions.
