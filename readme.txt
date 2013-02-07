@@ -10,7 +10,8 @@ Adds two buttons to the TinyMCE editor to enable writing text in Left to Right (
 
 == Description ==
 
-This plugin enables the text directions functionality that exist already in the original TinyMCE editor which allow writing texts in Left-to-Right and Right-to-Left directions in the same post (or page).
+This plugin enables the text directions functionality that exist already in the original TinyMCE editor which allow writing texts in Left-to-Right and Right-to-Left directions in the same post (or page) for languages like Arabic, Persian and Hebrew.
+اضافة زرارين لشريط التحرير لتمكين تحويل النص للقرأة من اليمين لليسار مثل اللغة العربية والفارسية والعبرية
 
 == Installation ==
 
