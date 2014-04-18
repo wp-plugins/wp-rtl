@@ -3,7 +3,7 @@
 Plugin Name: WP-RTL
 Plugin URI: http://www.fadvisor.net/blog/2008/10/wp-rtl/
 Description: Adds two buttons to the TinyMCE editor to enable writing text in Left to Right (LTR) and Right to Left (RTL) directions.
-Version: 0.2
+Version: 0.3
 Author: Fahad Alduraibi
 Author URI: http://www.fadvisor.net/blog/
 */
@@ -42,8 +42,11 @@ function tinymce_bidi_buttons($buttons) {
 }
 
 function tinymce_bidi_plugin($plugin_array) {
-	$plugin_array['directionality'] = includes_url('js/tinymce/plugins/directionality/editor_plugin.js');
-
+	if (get_bloginfo('version') < 3.9) {
+		$plugin_array['directionality'] = includes_url('js/tinymce/plugins/directionality/editor_plugin.js');
+	} else {
+		$plugin_array['directionality'] = includes_url('js/tinymce/plugins/directionality/plugin.min.js');
+	}
 	return $plugin_array;
 }
 
